@@ -1,0 +1,14 @@
+analytics 
+classie.js
+forms.js
+countUP.min
+fastclick
+hm.js
+fileupload
+inview.min.js//判断当前元素是否滚动到当前视图
+placeholder.min//让ie支持placeholder
+ui.widget
+modernizr//传统浏览器目前不会被完全取代，令你难以将最新的 CSS3 或 HTML5 功能嵌入你的网站。 Modernizr 正是为解决这一难题应运而生，
+particle   
+slick
+v.js

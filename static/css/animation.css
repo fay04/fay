@@ -1,0 +1,42 @@
+/* 导航栏 */
+.project .item:hover .subHolder {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+.project .nav .menu .item:hover > a { 
+    opacity:.7 
+}
+.project .nav .menu .item:hover > a, .project .nav .menu .item.on > a, 
+.project .nav .menu .item.active > a{ 
+    color:rgb(143,194,134); 
+    background-color:black; 
+    border-left-color:rgb(143,194,134); 
+    opacity:1 ;
+}
+.map a:hover {
+    opacity: .8;
+}
+.map a {
+    transition: opacity .3s ease;
+}
+/* content */
+.fadeout, .fadeGroup {
+    opacity: 0; 
+    transition: opacity .5s ease, transform .5s ease;
+}
+
+.fadeout.up, .fadeGroup.up {
+    transform: translateY(20px);
+}
+.fadeout.in, .fadeGroup.in {
+    opacity: 1;
+    transform: none;
+}
+.stagger500 {
+    transition-delay: 500ms;
+}
+
+.stagger1000 {
+    transition-delay: 1000ms;
+}
